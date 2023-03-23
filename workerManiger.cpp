@@ -1,7 +1,6 @@
 #include"workManiger.h"
 workManiger::workManiger()//职工管理类
-													//是构造函数，正在初始化这个类
-//上面的部分是在定义函数吗?
+													//是构造函数，用于初始化这个类
 {
 	ifstream ifs;
 	ifs.open(FILENAME, ios::in);
@@ -117,7 +116,7 @@ void workManiger::Add_num()
 	system("pause");
 	system("cls");
 }
-void workManiger::Showmune()
+void workManiger::Showmenu()
 {
 	cout << "************************************************" << endl;
 	cout << "*************欢迎使用职工管理系统*************" << endl;

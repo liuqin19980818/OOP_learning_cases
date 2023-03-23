@@ -5,7 +5,7 @@ Boss::Boss(int ID, string name, int DID)
 	this->m_name = name;
 	this->detID = DID;
 }
-void Boss::showINfo()//这是正在定义函数
+void Boss::showINfo()//定义函数showINfo
 {
 	cout << "职工编号：" << this->m_ID << "\t";
 	cout << "职工姓名：" << this->m_name << "\t";

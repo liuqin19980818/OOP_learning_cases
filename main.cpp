@@ -19,11 +19,12 @@ int main()
 	system("pause");
 	return 0;*/
 	//实例化管理者的对象
-	workManiger m;
+	workManiger m;//是在栈中实例化的
+								//小类如此,如果是大类的话就需要堆中实例化,使用new和delect
 	int choice = 0;
 	while (true)
 	{
-		m.Showmune();
+		m.Showmeun();
 		cout << "请输入你的选择" << endl;
 		cin >> choice;
 		switch (choice)
@@ -62,7 +63,7 @@ int main()
 		}
 
 	}
-	m.Showmune();
+	m.Showmeun();
 	system("pause");
 	return 0;
 }

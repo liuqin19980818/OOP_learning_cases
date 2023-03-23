@@ -11,7 +11,7 @@ class workManiger
 {
 public:
 	workManiger();//构造函数
-	void Showmune();//显示菜单
+	void Showmenu();//显示菜单
 	void exitSystem();//退出系统
 	//记录职工人数
 	int Empnum;
