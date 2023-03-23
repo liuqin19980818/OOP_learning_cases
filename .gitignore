@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Cscope
+cscope.files
